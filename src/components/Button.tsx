@@ -13,7 +13,7 @@ const TouchableButton = styled.TouchableOpacity`
 
 const ButtonText = styled.Text`
   color: #FFFFFF;
-  font-size: ${({size}: {size: ButtonProps['size']}) => (size === 'md' ? '17px' : '20px')};;
+  font-size: ${({size}: {size: ButtonProps['size']}) => (size === 'md' ? '17px' : '20px')};
   text-align: center;
   font-family: Poppins-Bold;
 `;
