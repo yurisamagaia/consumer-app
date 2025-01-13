@@ -5,7 +5,7 @@ Em seguida está o passo a passo para rodar o projeto.
 
 ## 1: Clonar o projeto na sua máquina
 ```bash
-git clone https://github.com/yurisamagaia/quickorder.git
+git clone https://github.com/yurisamagaia/consumer-app.git
 ```
 
 ## 2: Instalar as dependências 
