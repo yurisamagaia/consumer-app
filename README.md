@@ -1,4 +1,4 @@
-# Getting Started
+# Consumer APP
 
 O App foi feito utilizando a plataforma Android.
 Em seguida está o passo a passo para rodar o projeto.
