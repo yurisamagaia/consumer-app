@@ -23,6 +23,11 @@ yarn start
 yarn android
 ```
 
+## 5: Rodar os testes
+```bash
+yarn test
+```
+
 # Sobre o projeto
 
 Ferramentas utilizadas no desenvolvimentoL
