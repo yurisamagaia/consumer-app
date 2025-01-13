@@ -3,27 +3,27 @@
 O App foi feito utilizando a plataforma Android.
 Em seguida está o passo a passo para rodar o projeto.
 
-## 1: Clonar o projeto na sua máquina
+## 1 Clonar o projeto na sua máquina
 ```bash
 git clone https://github.com/yurisamagaia/consumer-app.git
 ```
 
-## 2: Instalar as dependências 
+## 2 Instalar as dependências 
 ```bash
 yarn install
 ```
 
-## 3: Iniciar o Metro
+## 3 Iniciar o Metro
 ```bash
 yarn start
 ```
 
-## 4: Iniciar a aplicação
+## 4 Iniciar a aplicação
 ```bash
 yarn android
 ```
 
-## 5: Rodar os testes
+## 5 Rodar os testes
 ```bash
 yarn test
 ```
