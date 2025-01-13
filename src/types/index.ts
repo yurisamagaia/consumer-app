@@ -1,6 +1,4 @@
-// import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { ReactNode } from 'react';
-// import { RouteProp } from '@react-navigation/native';
 
 // Orders
 export type Order = {
@@ -32,19 +30,6 @@ export type AppProviderProps = {
 // Navigation
 export type NavigationContextType = {
   currentScreen: string;
-  navigate: (screen: string) => void;
+  params: Record<string, any>;
+  navigate: (screen: string, params?: Record<string, any>) => void;
 };
-
-
-// export type RootStackParamList = {
-//   Welcome: undefined;
-//   Login: undefined;
-//   Orders: undefined;
-//   OrderDetails: { order: Order };
-// };
-
-// export type WelcomeScreenNavigationProp = NativeStackNavigationProp<RootStackParamList, 'Welcome'>;
-// export type LoginScreenNavigationProp = NativeStackNavigationProp<RootStackParamList, 'Login'>;
-// export type OrdersScreenNavigationProp = NativeStackNavigationProp<RootStackParamList, 'Orders'>;
-// export type OrderDetailsScreenNavigationProp = NativeStackNavigationProp<RootStackParamList, 'OrderDetails'>;
-// export type OrderDetailsRouteProp = RouteProp<RootStackParamList, 'OrderDetails'>;
