@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginScreen renders correctly 1`] = `
+<RCTScrollView>
+  <View>
+    <View
+      colors={
+        [
+          "#79BBCC",
+          "#EA102F",
+        ]
+      }
+      end={
+        {
+          "x": 1,
+          "y": 1,
+        }
+      }
+      start={
+        {
+          "x": 0,
+          "y": 0,
+        }
+      }
+      style={
+        {
+          "alignItems": "center",
+          "height": 370,
+          "justifyContent": "center",
+          "width": "100%",
+        }
+      }
+    >
+      <Image
+        source="test-file-stub"
+      />
+    </View>
+    <View
+      style={
+        {
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "paddingBottom": 32,
+          "paddingLeft": 32,
+          "paddingRight": 32,
+          "paddingTop": 70,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#222121",
+            "fontFamily": "Poppins-SemiBold",
+            "fontSize": 20,
+          }
+        }
+      >
+        Entrar no Consumer APP
+      </Text>
+      <TextInput
+        onChangeText={[Function]}
+        placeholder="Usuário"
+        placeholderTextColor="#000000"
+        style={
+          {
+            "borderBottomLeftRadius": 5,
+            "borderBottomRightRadius": 5,
+            "borderColor": "#BABABB",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "borderWidth": 1,
+            "fontFamily": "Poppins-Regular",
+            "fontSize": 17,
+            "marginTop": 20,
+            "paddingBottom": 15,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 15,
+            "width": "100%",
+          }
+        }
+        value=""
+      />
+      <TextInput
+        onChangeText={[Function]}
+        placeholder="Senha"
+        placeholderTextColor="#000000"
+        secureTextEntry={true}
+        style={
+          {
+            "borderBottomLeftRadius": 5,
+            "borderBottomRightRadius": 5,
+            "borderColor": "#BABABB",
+            "borderStyle": "solid",
+            "borderTopLeftRadius": 5,
+            "borderTopRightRadius": 5,
+            "borderWidth": 1,
+            "fontFamily": "Poppins-Regular",
+            "fontSize": 17,
+            "marginTop": 20,
+            "paddingBottom": 15,
+            "paddingLeft": 20,
+            "paddingRight": 20,
+            "paddingTop": 15,
+            "width": "100%",
+          }
+        }
+        value=""
+      />
+      <View
+        style={
+          {
+            "marginBottom": 70,
+            "marginTop": 60,
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "backgroundColor": "#222121",
+              "borderBottomLeftRadius": 8,
+              "borderBottomRightRadius": 8,
+              "borderTopLeftRadius": 8,
+              "borderTopRightRadius": 8,
+              "height": 65,
+              "justifyContent": "center",
+              "opacity": 1,
+              "paddingBottom": 18,
+              "paddingTop": 18,
+              "width": "100%",
+            }
+          }
+        >
+          <Text
+            size="lg"
+            style={
+              {
+                "color": "#FFFFFF",
+                "fontFamily": "Poppins-Bold",
+                "fontSize": 20,
+                "textAlign": "center",
+              }
+            }
+          >
+            ENTRAR
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "borderTopColor": "#D3D3D4",
+            "borderTopWidth": 1,
+            "paddingTop": 13,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#555555",
+              "fontFamily": "Poppins-Regular",
+              "fontSize": 15,
+              "textAlign": "center",
+            }
+          }
+        >
+          Utilize um usuário e senha cadastrado no Consumer Desktop.
+           
+          <Text
+            style={
+              {
+                "color": "#555555",
+                "fontFamily": "Poppins-Regular",
+                "fontSize": 15,
+                "textAlign": "center",
+                "textDecorationColor": "black",
+                "textDecorationLine": "underline",
+                "textDecorationStyle": "solid",
+              }
+            }
+          >
+            Veja aqui.
+          </Text>
+        </Text>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

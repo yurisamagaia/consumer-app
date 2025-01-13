@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component renders correctly with default props 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "backgroundColor": "#222121",
+      "borderBottomLeftRadius": 8,
+      "borderBottomRightRadius": 8,
+      "borderTopLeftRadius": 8,
+      "borderTopRightRadius": 8,
+      "height": 65,
+      "justifyContent": "center",
+      "opacity": 1,
+      "paddingBottom": 18,
+      "paddingTop": 18,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    size="lg"
+    style={
+      {
+        "color": "#FFFFFF",
+        "fontFamily": "Poppins-Bold",
+        "fontSize": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    Click Me
+  </Text>
+</View>
+`;
+
+exports[`Button Component renders correctly with the "lg" size 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "backgroundColor": "#222121",
+      "borderBottomLeftRadius": 8,
+      "borderBottomRightRadius": 8,
+      "borderTopLeftRadius": 8,
+      "borderTopRightRadius": 8,
+      "height": 65,
+      "justifyContent": "center",
+      "opacity": 1,
+      "paddingBottom": 18,
+      "paddingTop": 18,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    size="lg"
+    style={
+      {
+        "color": "#FFFFFF",
+        "fontFamily": "Poppins-Bold",
+        "fontSize": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    Large Button
+  </Text>
+</View>
+`;
+
+exports[`Button Component renders correctly with the "md" size 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "backgroundColor": "#222121",
+      "borderBottomLeftRadius": 8,
+      "borderBottomRightRadius": 8,
+      "borderTopLeftRadius": 8,
+      "borderTopRightRadius": 8,
+      "height": 65,
+      "justifyContent": "center",
+      "opacity": 1,
+      "paddingBottom": 18,
+      "paddingTop": 18,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    size="md"
+    style={
+      {
+        "color": "#FFFFFF",
+        "fontFamily": "Poppins-Bold",
+        "fontSize": 17,
+        "textAlign": "center",
+      }
+    }
+  >
+    Medium Button
+  </Text>
+</View>
+`;
